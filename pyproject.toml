@@ -93,7 +93,7 @@ dependencies = [
     "llmlingua==0.2.2",
     # LLMLingua pulls NLTK transitively. Pin above the disclosed traversal
     # advisories so clean installs cannot resolve to the vulnerable 3.9.x line.
-    "nltk==3.10.0",
+    "nltk==3.10.3",
 ]
 
 [project.optional-dependencies]
