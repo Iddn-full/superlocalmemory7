@@ -139,7 +139,7 @@ ingestion = [
     "keyring>=25.0.0",
     "google-auth-oauthlib>=1.2.0",
     "google-api-python-client>=2.100.0",
-    "icalendar>=6.0.0",
+    "icalendar>=7.1.3",
 ]
 full = [
     "superlocalmemory[search,ui,learning,performance,ingestion,injection,scale]",
